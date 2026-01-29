@@ -1,0 +1,36 @@
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+
+  &__main {
+    display: flex;
+    column-gap: 16px;
+  }
+
+  &__icon {
+    padding: 15px 21px;
+    border-radius: 50px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-accent-purple);
+    font-weight: 600;
+  }
+
+  &__welcome {
+    display: grid;
+    row-gap: 4px;
+
+    &-name {
+      font-size: 19px;
+      font-weight: 600;
+    }
+  }
+
+  &__nitification {
+    circle {
+      fill: var(--color-accent-purple);
+    }
+  }
+}

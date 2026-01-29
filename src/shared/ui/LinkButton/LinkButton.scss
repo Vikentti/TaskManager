@@ -1,0 +1,20 @@
+
+.link-button {
+  cursor: pointer;
+
+  &--sm {
+    color: var(--color-accent-purple);
+    font-size: 14px;
+  }
+
+  &--lg {
+    padding: 14px 116px;
+    border-radius: 14px;
+    background-image: url("/bg__button2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-white);
+    border: none;
+    overflow: hidden;
+  }
+}

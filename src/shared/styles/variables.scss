@@ -1,0 +1,26 @@
+@use "helpers/index" as *;
+
+:root {
+  --color-primary: #24252C;
+  --color-accent-purple: #5F33E1;
+  --color-light-purple: #AB94FF;
+  --color-super-light-purple: #EEE9FF;
+  --color-pink: #F478B8;
+  --color-blue: #E3F2FF;
+  --color-accent-blue: #0087FF;
+  --color-orange: #FFE9E1;
+  --color-accent-orange: #FF7D53;
+  --color-bg: #FFFFFF;
+  --color-bg-secondery: #EDE8FF;
+  --color-white: #FFFFFF;
+
+  --font-family-base: "Lexend Deca", sans-serif;
+
+  --container-width: #{fluid-to-laptop(
+    $container-desktop-width,
+    $container-laptop-width
+  )};
+
+  --container-padding-x: 16px;
+}
+

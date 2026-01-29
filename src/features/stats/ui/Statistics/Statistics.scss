@@ -1,0 +1,49 @@
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: fluid(23, 11);
+  padding-block: 25px;
+
+  &__title {
+    font-size: fluid(32, 19);
+    font-weight: 600;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: fluid(25, 17) fluid(39, 21);
+  }
+
+  &__item {
+    display: grid;
+    row-gap: 9px;
+    padding: fluid(16, 11) fluid(22, 12);
+    width: fluid(286, 155);
+    height: fluid(141, 94);
+    border-radius: 15px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+
+    &.is-accent {
+      background-color: var(--color-accent-purple);
+      color: var(--color-white);
+
+      .statistics__name {
+      color: var(--color-white);
+      }
+    }
+  }
+
+  &__name {
+    font-size: fluid(24, 14);
+  }
+
+  &__value {
+    font-size: fluid(62, 32);
+    font-weight: 600;
+  }
+}

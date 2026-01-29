@@ -1,0 +1,7 @@
+# Игнорирование артефактов сборки и папок
+.next
+node_modules
+out
+build
+*.html
+*.css

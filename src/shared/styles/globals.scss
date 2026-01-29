@@ -1,0 +1,50 @@
+@use "helpers/index" as *;
+
+html {
+  box-sizing: border-box;
+  &.is-lock {
+    overflow: hidden;
+  }
+}
+
+body {
+  @include fluid-text(18, 14);
+
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-base), sans-serif;
+  color: var(--color-primary);
+  background-color: var(--color-bg);
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: var(--color-primary);
+}
+
+h1, .h1 {
+  font-size: fluid(32, 19);
+}
+
+h2, .h2 {
+  font-size: fluid(28, 24);
+}
+
+h3, .h3 {
+  font-size: fluid(24, 20);
+}
+

@@ -6,12 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier --write ."
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "@a1rth/css-normalize": "^1.2.4",
+    "@hookform/resolvers": "^5.2.2",
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tanstack/react-query": "^5.90.12",
+    "@tanstack/react-query-devtools": "^5.91.1",
+    "@types/js-cookie": "^3.0.6",
+    "@types/lodash.debounce": "^4.0.9",
+    "axios": "^1.13.2",
+    "classnames": "^2.5.1",
     "next": "16.0.10",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-day-picker": "^9.13.0",
+    "react-dom": "19.2.1",
+    "react-hook-form": "^7.70.0",
+    "react-redux": "^9.2.0",
+    "sass": "^1.97.0",
+    "sonner": "^2.0.7",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -20,6 +38,10 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
+    "eslint-config-prettier": "^10.1.8",
+    "postcss": "^8.5.6",
+    "postcss-pxtorem": "^6.1.0",
+    "prettier": "^3.7.4",
     "typescript": "^5"
   }
 }

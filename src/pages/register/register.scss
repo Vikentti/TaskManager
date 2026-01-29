@@ -1,0 +1,16 @@
+
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  height: 100vh;
+  max-width: 450px;
+  text-align: center;
+
+  &__inner {
+    display: grid;
+    row-gap: 13px;
+  }
+}

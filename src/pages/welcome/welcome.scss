@@ -1,0 +1,17 @@
+.welcome {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  height: 100vh;
+  max-width: 450px;
+  text-align: center;
+
+
+  &__info {
+    display: grid;
+    row-gap: fluid(11, 7);
+  }
+}

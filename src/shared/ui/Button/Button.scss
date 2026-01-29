@@ -1,0 +1,36 @@
+.button {
+  cursor: pointer;
+
+  &--sm {
+    color: var(--color-accent-purple);
+    font-size: 14px;
+  }
+
+  &--lg {
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
+    padding: 14px 116px;
+    border-radius: 14px;
+    background-color: var(--color-accent-purple);
+    color: var(--color-white);
+    border: none;
+    overflow: hidden;
+
+    &::after {
+      @include square(24px);
+      position: absolute;
+      content: url("../../../assets/icons/Arrow-Rigthsvg.svg");
+
+      right: 21px;
+    }
+  }
+
+  &--loading {
+
+  }
+
+  &--disabled {
+    background-color: gray;
+  }
+}
